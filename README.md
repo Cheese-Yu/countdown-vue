@@ -1,4 +1,4 @@
-# @ocean/countdown-vue
+# countdown-vue
 
 ## 一个Vue的全局倒计时组件
 ```
