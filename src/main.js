@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import App from './App.vue'
-import countDown from 'vue-global-countdown'
+import countDown from './lib/countdown'
 Vue.use(countDown);
 
 Vue.config.productionTip = false
