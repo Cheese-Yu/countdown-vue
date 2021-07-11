@@ -1,9 +1,9 @@
 {
   "name": "vue-global-countdown",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "一个Vue2.0的全局倒计时组件",
   "private": false,
-  "main": "dist/countdown-vue.common.js",
+  "main": "src/lib/countdown/index.js",
   "author": "ocean.yu",
   "scripts": {
     "serve": "vue-cli-service serve",
@@ -42,7 +42,6 @@
     "last 2 versions",
     "not dead"
   ],
-  "dependencies": {},
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/Cheese-Yu/countdown-vue.git"

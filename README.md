@@ -1,4 +1,4 @@
-# countdown-vue
+# vue-global-countdown
 
 ## 一个Vue的全局倒计时组件
 ```
