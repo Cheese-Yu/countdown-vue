@@ -1,13 +1,13 @@
 {
-  "name": "@ocean/countdown-vue",
-  "version": "1.0.0",
+  "name": "vue-global-countdown",
+  "version": "1.0.1",
   "description": "一个Vue2.0的全局倒计时组件",
   "private": false,
-  "main": "dist/countdown.common.js",
+  "main": "dist/countdown-vue.common.js",
   "author": "ocean.yu",
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build --target lib --name countdown src/lib/countdown/index.js",
+    "build": "vue-cli-service build --target lib --name countdown-vue src/lib/countdown/index.js",
     "lint": "vue-cli-service lint"
   },
   "peerDependencies": {

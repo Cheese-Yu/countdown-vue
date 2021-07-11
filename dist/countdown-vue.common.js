@@ -1,14 +1,5 @@
-(function webpackUniversalModuleDefinition(root, factory) {
-	if(typeof exports === 'object' && typeof module === 'object')
-		module.exports = factory();
-	else if(typeof define === 'function' && define.amd)
-		define([], factory);
-	else if(typeof exports === 'object')
-		exports["countdown"] = factory();
-	else
-		root["countdown"] = factory();
-})((typeof self !== 'undefined' ? self : this), function() {
-return /******/ (function(modules) { // webpackBootstrap
+module.exports =
+/******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
 /******/
@@ -1462,7 +1453,7 @@ if (typeof window !== 'undefined') {
 // Indicate to webpack that this file can be concatenated
 /* harmony default export */ var setPublicPath = (null);
 
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"bef76f50-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/lib/countdown/index.vue?vue&type=template&id=79936691&scoped=true&
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"b1c526a2-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/lib/countdown/index.vue?vue&type=template&id=79936691&scoped=true&
 var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{directives:[{name:"show",rawName:"v-show",value:(_vm.visible),expression:"visible"}],class:['count-down', _vm.customClass]},[_c('span',{staticClass:"time"},[_vm._v(_vm._s(_vm._f("addZero")(_vm.currentTime,2))),_c('i',[_vm._v("s")])]),_vm._t("default")],2)}
 var staticRenderFns = []
 
@@ -1771,5 +1762,4 @@ module.exports = NATIVE_SYMBOL
 /***/ })
 
 /******/ });
-});
-//# sourceMappingURL=countdown.umd.js.map
+//# sourceMappingURL=countdown-vue.common.js.map

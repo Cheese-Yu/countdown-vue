@@ -2,12 +2,12 @@
 
 ## 一个Vue的全局倒计时组件
 ```
-npm install @ocean/countdown-vue --save
+npm install vue-global-countdown --save
 ```
 
 ### 使用
 ```
-import countDown from '@ocean/countdown-vue'
+import countDown from 'vue-global-countdown'
 Vue.use(countDown);
 ```
 
