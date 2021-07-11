@@ -1,13 +1,16 @@
 {
   "name": "@ocean/countdown-vue",
-  "version": "0.1.0",
-  "private": true,
+  "version": "1.0.0",
+  "description": "一个Vue2.0的全局倒计时组件",
+  "private": false,
+  "main": "dist/countdown.common.js",
+  "author": "ocean.yu",
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
+    "build": "vue-cli-service build --target lib --name countdown src/lib/countdown/index.js",
     "lint": "vue-cli-service lint"
   },
-  "dependencies": {
+  "peerDependencies": {
     "core-js": "^3.6.5",
     "vue": "^2.6.11"
   },
@@ -38,5 +41,19 @@
     "> 1%",
     "last 2 versions",
     "not dead"
-  ]
+  ],
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Cheese-Yu/countdown-vue.git"
+  },
+  "keywords": [
+    "vue",
+    "countdown"
+  ],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Cheese-Yu/countdown-vue/issues"
+  },
+  "homepage": "https://github.com/Cheese-Yu/countdown-vue#readme"
 }

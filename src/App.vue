@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <div id="app" @click="reset">
     <img alt="Vue logo" src="./assets/logo.png">
     <HelloWorld msg="Welcome to Your Vue.js App"/>
   </div>
@@ -12,6 +12,20 @@ export default {
   name: 'App',
   components: {
     HelloWorld
+  },
+  mounted() {
+    this.$countDown({
+      time: 60,
+      customClass: 'self-countDown', // 样式定制
+      handle: function () {
+        alert('CountDown Finished...');
+      }
+    });
+  },
+  methods: {
+    reset() {
+      this.$countDown.restart(); // 重置
+    }
   }
 }
 </script>

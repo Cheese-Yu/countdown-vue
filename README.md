@@ -1,24 +1,28 @@
 # @ocean/countdown-vue
 
-## Project setup
+## 一个Vue的全局倒计时组件
 ```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
+npm install @ocean/countdown-vue --save
 ```
 
-### Compiles and minifies for production
+### 使用
 ```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
+import countDown from '@ocean/countdown-vue'
+Vue.use(countDown);
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### API
+```
+this.$countDown({
+    time: 60,
+    customClass: 'self-countDown', // 样式定制
+    text: 'tip text.', // 倒计时提醒文字
+    handle: function () {
+        console.log('CountDown Finished...');
+    }
+});
+this.$countDown.restart(); // 重置
+this.$countDown.pause(); // 暂停
+this.$countDown.continue(); // 继续
+this.$countDown.clear(); // 清除
+```
